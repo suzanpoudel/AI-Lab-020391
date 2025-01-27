@@ -1,22 +1,6 @@
-Here is a sample `README.md` for your Room Cleaning Agent code:
-
----
-
 # Room Cleaning Agent
 
 This project implements a simple Reflex Agent that simulates cleaning a room represented as a 2D grid. The agent perceives the cleanliness of its current position, performs actions (cleaning if dirty), and moves to optimize the cleaning process.
-
-## Features
-
-- **Randomized Room State**: The room is initialized as a 10x10 grid with cells randomly marked as clean (`0`) or dirty (`1`).
-- **Agent Behavior**:
-  - Starts at a random position in the grid.
-  - Cleans dirty cells.
-  - Moves intelligently to unvisited and dirty cells to optimize cleaning.
-- **Interactive Display**:
-  - Shows the initial room status.
-  - Tracks each cleaning step.
-  - Displays the final cleaned room status and the number of steps taken.
 
 ## How It Works
 
